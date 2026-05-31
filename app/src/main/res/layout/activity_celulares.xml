@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de Celulares"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca"/>
+
+        <EditText
+            android:id="@+id/txtEmailUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Usuario"/>
+
+        <EditText
+            android:id="@+id/txtPulgadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pulgadas"/>
+
+        <EditText
+            android:id="@+id/txtMegapx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Megapixeles"/>
+
+        <EditText
+            android:id="@+id/txtRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RAM"/>
+
+        <EditText
+            android:id="@+id/txtAlmacenamientoPpal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Almacenamiento Principal"/>
+
+        <EditText
+            android:id="@+id/txtAlmacenamientoSecun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Almacenamiento Secundario"/>
+
+        <EditText
+            android:id="@+id/txtSistemaOperativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sistema Operativo"/>
+
+        <EditText
+            android:id="@+id/txtOperador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Operador"/>
+
+        <EditText
+            android:id="@+id/txtTecnologiaBanda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tecnología de Banda"/>
+
+        <EditText
+            android:id="@+id/txtWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="WiFi"/>
+
+        <EditText
+            android:id="@+id/txtBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bluetooth"/>
+
+        <EditText
+            android:id="@+id/txtCamaras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cámaras"/>
+
+        <EditText
+            android:id="@+id/txtMarcaCpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca CPU"/>
+
+        <EditText
+            android:id="@+id/txtVelocidadCpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Velocidad CPU"/>
+
+        <EditText
+            android:id="@+id/txtNfc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NFC"/>
+
+        <EditText
+            android:id="@+id/txtHuella"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Huella"/>
+
+        <EditText
+            android:id="@+id/txtIr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IR"/>
+
+        <EditText
+            android:id="@+id/txtResisteAgua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Resiste Agua"/>
+
+        <EditText
+            android:id="@+id/txtCantidadSim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cantidad SIM"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"/>
+
+    </LinearLayout>
+
+</ScrollView>
